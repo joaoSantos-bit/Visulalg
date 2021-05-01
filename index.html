@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Simulalg</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="logo">Simulalg</h1>
+        <nav class="navigation">
+            <ul class="list">
+                <li class="list-item activeMethod" id="bubblesort">Bubblesort</li>
+                <li class="list-item" id="quicksort">Quicksort</li>
+                <li class="list-item" id="heapsort">Heapsort</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="container"></div>
+        <div class="wrapp-buttons">
+            <button class="controlBtn runBtn">Run</button>
+            <button class="controlBtn resetBtn">Reset</button>
+        </div>
+    </main>
+    <script src="js/SortingMethods.js"></script>
+    <script src="js/init.js"></script>
+    <script>
+
+        (function () {
+            const methodButtons = [
+                { name: 'bubblesort', element: document.getElementById('bubblesort'), speed: 30 },
+                { name: 'quicksort', element: document.getElementById('quicksort'), speed: 30 },
+                { name: 'heapsort', element: document.getElementById('heapsort'), speed: 30 },
+            ];
+
+            const controlButtons = {
+                reset: document.querySelector('.resetBtn'),
+                run: document.querySelector('.runBtn')
+            }
+
+            let initializer = init(controlButtons, methodButtons);
+
+            // let algorithm = undefined;
+            // let speed = undefined;
+        
+
+
+
+            // methodButtons.forEach((method, index) => {
+            //     method.element.addEventListener('click', () => {
+            //         algorithm = method.name;
+            //         speed = method.speed;
+            //         methodButtons.forEach((item, subIndex) => index != subIndex ? item.element.classList.remove('activeMethod') : item.element.classList.add('activeMethod'));
+            //         initializer.reset();
+            //     }, false);
+            // });
+
+            // controlButtons.reset.addEventListener('click', () => initializer.reset(), false);
+            // controlButtons.run.addEventListener('click', () => initializer.run(algorithm, speed), false);
+
+        }) ();
+
+    </script>
+</body>
+
+</html>
