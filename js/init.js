@@ -8,7 +8,7 @@ const init = (controlBtns, methodBtns) => {
     let animating = false;
     let run = true;
 
-    const QUANT_BARS = 100;
+    const QUANT_BARS = 150;
     const RANGE = 300;
 
     // https://stackoverflow.com/questions/1527803/generating-random-whole-numbers-in-javascript-in-a-specific-range
@@ -72,10 +72,12 @@ const init = (controlBtns, methodBtns) => {
         run = false;
         let len = events.length;
         for (let i = 0; i < len; i++) {
-            setTimeout(() => {
-                elements[events[i].prev.index].style.height = `${events[i].prev.height}px`;
-                elements[events[i].curr.index].style.height = `${events[i].curr.height}px`;
-            }, (i + 1) * speed);
+            if (events[i].name == 'swap') {
+                setTimeout(() => {
+                    elements[events[i].prev.index].style.height = `${events[i].prev.height}px`;
+                    elements[events[i].curr.index].style.height = `${events[i].curr.height}px`;
+                }, (i + 1) * speed);
+            }
         }
         // tells when the animations are done
         setTimeout(() => {
@@ -91,9 +93,6 @@ const init = (controlBtns, methodBtns) => {
             sort.quickSort(numbers, 0, numbers.length - 1);
         } else if (algorithm == 'heapsort') {
             sort.heapSort(numbers);
-        } else if (algorithm == 'mergesort') {
-            let max = numbers.reduce((prev, curr) => Math.max(prev, curr));
-            sort.mergeSortRec(numbers, 0, numbers.length - 1, max);
         }
         // execute the events queue
         executeQueue(sort.getEvents(), speed);
@@ -114,8 +113,6 @@ const init = (controlBtns, methodBtns) => {
     controlBtns.reset.addEventListener('click', () => {
         if (!animating) {
             resetArrayNumbers();
-        } else {
-            
         }
     }, false);
     controlBtns.run.addEventListener('click', () => {

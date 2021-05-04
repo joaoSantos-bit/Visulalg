@@ -28,7 +28,7 @@ class SortingMethods {
                     // swap the two values
                     this._swap(_list, i, i + 1);
                     // push an swap object into a events queue
-                    this._events.push({ prev: { height: _list[i].height, index: i }, curr: { height: _list[i + 1].height, index: i + 1 } });
+                    this._events.push({ name: 'swap', prev: { height: _list[i].height, index: i }, curr: { height: _list[i + 1].height, index: i + 1 } });
                 }
             }
             len--;
@@ -48,7 +48,7 @@ class SortingMethods {
             }
             if (i <= j) {
                 this._swap(_list, i, j); //swap two elements
-                this._events.push({ prev: { height: _list[i].height, index: i }, curr: { height: _list[j].height, index: j } });
+                this._events.push({ name: 'swap', prev: { height: _list[i].height, index: i }, curr: { height: _list[j].height, index: j } });
                 i++;
                 j--;
             }
@@ -84,7 +84,7 @@ class SortingMethods {
 
         if (max != _i) {
             this._swap(_list, _i, max);
-            this._events.push({ prev: { height: _list[_i].height, index: _i }, curr: { height: _list[max].height, index: max } });
+            this._events.push({ name: 'swap', prev: { height: _list[_i].height, index: _i }, curr: { height: _list[max].height, index: max } });
             this._buildHeap(_list, _len, max);
         }
     }
@@ -101,7 +101,7 @@ class SortingMethods {
 
         while (k > 0) {
             this._swap(_list, k, 0);
-            this._events.push({ prev: { height: _list[0].height, index: 0 }, curr: { height: _list[k].height, index: k } });
+            this._events.push({ name: 'swap', prev: { height: _list[0].height, index: 0 }, curr: { height: _list[k].height, index: k } });
             this._buildHeap(_list, k, 0);
             k--;
         }

@@ -18,9 +18,10 @@ header {
     background-color: #2F4F4F;
 }
 
-#logo {
+#logo a {
     font-family: sans-serif;
     color: #F8F8FF;
+    text-decoration: none;
 }
 
 .navigation {
@@ -74,6 +75,10 @@ main {
 
 .backgroundColor {
     background-color: turquoise;/*goldenrod; /*#b71c1c*/
+}
+
+.highlight {
+    background-color: red;
 }
 
 .wrapp-buttons {
