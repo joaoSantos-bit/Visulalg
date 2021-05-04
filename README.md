@@ -7,15 +7,40 @@ A sorting simulator using Vanilla JavaScript
 </div>
 <br>
 
-## :rocket: Technologies
+<p align="center">
+  <a href="#goals">Goals</a> •
+  <a href="#roadmap">Roadmap</a> • 
+  <a href="#technologies">Technologies</a> • 
+  <a href="#license">License</a> • 
+  <a href="#author">Author</a>
+</p>
+<br>
 
+## :checkered_flag: Goals
+<p> This project has as its main goal to visualize how some of the most famous sorting algorithms work. </p>
+<br>
+
+## Roadmap
+<p> In order to clone this project you must follow the steps bellow. </p>
+<br>
+
+~~~Shell
+$ git clone https://github.com/joaoSantos-bit/Visulalg
+~~~
+<br>
+
+## :rocket: Technologies
 <p>This project was developed using the following technologies.</p>
 
 * :white_check_mark: HTML
 * :white_check_mark: CSS
 * :white_check_mark: JavaScript
-
-<br>
 <br>
 
+## License
+<img src="https://img.shields.io/github/license/Rocketseat/unform"/>
+<br>
+
+## Author
 made with :blue_heart: by <a href="https://github.com/joaoSantos-bit">JoaoSantos-bit</a> :wave:
+
