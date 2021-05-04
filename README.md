@@ -3,7 +3,7 @@ A sorting simulator using Vanilla JavaScript
 <br>
 <br>
 <div align="center">
-  <img src="https://github.com/joaoSantos-bit/Visulalg/blob/main/cubomagico_gif.gif" alt="quicksort visualizer introduction gif">
+  <img src="https://github.com/joaoSantos-bit/Visulalg/blob/main/quicksort-visualizer.gif" alt="quicksort visualizer introduction gif">
 </div>
 <br>
 
