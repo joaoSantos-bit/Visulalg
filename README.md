@@ -11,6 +11,7 @@ A sorting simulator using Vanilla JavaScript
   <a href="#goals">Goals</a> •
   <a href="#roadmap">Roadmap</a> • 
   <a href="#technologies">Technologies</a> • 
+	<a href="$features">Features</a> •
   <a href="#license">License</a> • 
   <a href="#author">Author</a>
 </p>
