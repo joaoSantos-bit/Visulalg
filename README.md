@@ -37,6 +37,22 @@ $ git clone https://github.com/joaoSantos-bit/Visulalg
 * :white_check_mark: JavaScript
 <br>
 
+<h4 align="center"> 
+	<p> :construction: React Select :rocket: Em construção... :construction: </p>
+</h4>
+<br>
+
+### Features
+
+- [x] Swap animations
+- [ ] comparison animations
+- [x] Bubblesort implementation
+- [x] Quicksort implementation
+- [x] Heapsort implementation
+- [ ] Mergesort implementation
+
+<br>
+
 ## License
 <img src="https://img.shields.io/github/license/Rocketseat/unform"/>
 <br>
