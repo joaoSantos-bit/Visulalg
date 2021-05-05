@@ -3,17 +3,17 @@ A sorting simulator using Vanilla JavaScript
 <br>
 <br>
 <div align="center">
-  <img src="https://github.com/joaoSantos-bit/Visulalg/blob/main/quicksort-visualizer.gif" alt="quicksort visualizer introduction gif">
+	<img src="https://github.com/joaoSantos-bit/Visulalg/blob/main/quicksort-visualizer.gif" alt="quicksort visualizer introduction gif">
 </div>
 <br>
 
 <p align="center">
-  <a href="#goals">Goals</a> •
-  <a href="#roadmap">Roadmap</a> • 
-  <a href="#technologies">Technologies</a> • 
-	<a href="$features">Features</a> •
-  <a href="#license">License</a> • 
-  <a href="#author">Author</a>
+	<a href="#goals">Goals</a> •
+	<a href="#roadmap">Roadmap</a> • 
+	<a href="#technologies">Technologies</a> • 
+	<a href="#features">Features</a> •
+	<a href="#license">License</a> • 
+	<a href="#author">Author</a>
 </p>
 <br>
 
