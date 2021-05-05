@@ -41,7 +41,7 @@ $ git clone https://github.com/joaoSantos-bit/Visulalg
 	<p> :construction: Visulalg :rocket: is under construction... :construction: </p>
 </h4>
 
-### Features
+## Features
 
 - [x] Swap animations
 - [ ] comparison animations
