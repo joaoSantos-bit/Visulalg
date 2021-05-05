@@ -35,12 +35,10 @@ $ git clone https://github.com/joaoSantos-bit/Visulalg
 * :white_check_mark: HTML
 * :white_check_mark: CSS
 * :white_check_mark: JavaScript
-<br>
 
 <h4 align="center"> 
-	<p> :construction: React Select :rocket: Em construção... :construction: </p>
+	<p> :construction: Visulalg :rocket: is under construction... :construction: </p>
 </h4>
-<br>
 
 ### Features
 
